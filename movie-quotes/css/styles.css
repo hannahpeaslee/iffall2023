@@ -1,0 +1,14 @@
+p {
+    color: black; 
+}
+
+.scenetitle{
+    border: 1px solid greenyellow;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: greenyellow;
+}
+
+.stagedirections{
+    font-style: italic;
+}
