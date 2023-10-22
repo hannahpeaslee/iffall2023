@@ -1,0 +1,337 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* font-family: 'Cantarell', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Raleway', sans-serif; */
+
+
+body{
+    margin-left: auto; margin-right: auto;
+    @media (min-width: 700px){
+        width: 700px;
+    }
+    @media (max-width: 480px){
+        width: 100%;
+    }
+}
+
+img{
+    width:100%;
+}
+
+.recipe-card{
+    background-color: rgb(50, 85, 39);
+    @media (min-width: 700px){
+        padding: 30px;
+    }
+    @media (max-width: 699px){
+        padding: 25px;
+    }
+    @media (max-width: 480px){
+        padding: 20px;
+    }
+}
+
+
+.title-box{
+    background-color: rgb(255 237 208);
+    margin-left: auto; margin-right: auto;
+    width: fit-content;
+    @media (min-width: 700px){
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+    @media (max-width: 699px){
+        padding: 25px;
+        margin-bottom: 25px;
+    }
+    @media (max-width: 480px){
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
+.recipe-large{
+    margin-block-start: 15px;
+    margin-block-end: 10px;
+    @media (min-width: 700px){
+        font-size: 27px;
+    }
+    @media (max-width: 699px){
+        font-size: 21px;
+    }
+    @media (max-width: 480px){
+        display: none;
+    }
+}
+.recipe-small{
+    margin-block-start: 15px;
+    margin-block-end: 10px;
+    text-align: center;
+    @media (min-width: 481px){
+        display: none;
+    }
+    @media (max-width: 480px){
+        font-size: 19px;
+    }
+}
+.text-large{
+    @media (max-width: 480px){
+        display: none;
+    }
+}
+.text-small{
+    @media (min-width: 481px){
+        display: none;
+    }
+}
+
+.grid{
+    display: grid;
+    @media (min-width: 700px){
+        grid-template-columns: 3fr 1fr;
+    }
+    @media (max-width: 699px){
+        grid-template-columns: 3fr 1fr;
+    }
+    @media (max-width: 600px){
+        grid-template-columns: 2fr 1fr;
+    }
+    @media (max-width: 480px){
+        grid-template-columns: 2fr 1fr;
+    }
+}
+.grid li{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.grid img{
+    width: 90%;
+}
+li.grid-text{
+    text-align: left;
+    width: 95%;
+}
+ul{
+    padding-inline-start: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+
+.materials-box{
+    background-color: rgb(255 237 208);
+    margin-left: auto; margin-right: auto;
+    width: fit-content;
+    @media (min-width: 700px){
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+    @media (max-width: 699px){
+        padding: 25px;
+        margin-bottom: 25px;
+    }
+    @media (max-width: 480px){
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
+.prep-box{
+    background-color: rgb(255 237 208);
+    margin-left: auto; margin-right: auto;
+    width: fit-content;
+    @media (min-width: 700px){
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+    @media (max-width: 699px){
+        padding: 25px;
+        margin-bottom: 25px;
+    }
+    @media (max-width: 480px){
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
+.cooking-box{
+    background-color: rgb(255 237 208);
+    margin-left: auto; margin-right: auto;
+    margin-bottom: 0px;
+    width: fit-content;
+    @media (min-width: 700px){
+        padding: 30px;
+    }
+    @media (max-width: 699px){
+        padding: 25px;
+    }
+    @media (max-width: 480px){
+        padding: 20px;
+    }
+}
+
+
+h1{
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Raleway', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    @media (min-width: 700px){
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 32px;
+    }
+    @media (max-width: 699px){
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 30px;
+    }
+    @media (max-width: 480px){
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 26px;
+    }
+}
+h2.summary{
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: normal;
+    margin-block-end: 50px;
+    margin-block-start: 30px;
+    @media (min-width: 700px){
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 24px;
+    }
+    @media (max-width: 699px){
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 22px;
+    }
+    @media (max-width: 480px){
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 20px;
+    }
+    
+}
+h2.recipe{
+    margin-block-start: 15px;
+    margin-block-end: 10px;
+    @media (min-width: 700px){
+        font-size: 27px;
+    }
+    @media (max-width: 699px){
+        font-size: 21px;
+    }
+    @media (max-width: 480px){
+        font-size: 19px;
+    }
+}
+h3{
+    margin-block-end: 0px;
+    margin-block-start: 25px;
+    @media (min-width: 700px){
+        font-size: 18px;
+    }
+    @media (max-width: 699px){
+        font-size: 17px;
+    }
+    @media (max-width: 480px){
+        font-size: 17px;
+    }
+}
+h3.sub{
+    margin-block-start: 10px;
+    font-weight: 500;
+    @media (min-width: 700px){
+        font-size: 18px;
+    }
+    @media (max-width: 699px){
+        font-size: 17px;
+    }
+    @media (max-width: 480px){
+        font-size: 17px;
+    }
+}
+h4{
+    text-align: center;
+    margin-block-start: 10px;
+    margin-block-end: 20px;
+    @media (min-width: 700px){
+        font-size: 20px;
+    }
+    @media (max-width: 699px){
+        font-size: 19px;
+    }
+    @media (max-width: 480px){
+        font-size: 18px;
+    }
+}
+h5{
+    margin-block-start: 20px;
+    margin-block-end: 10px;
+    @media (min-width: 700px){
+        font-size: 18px;
+    }
+    @media (max-width: 699px){
+        font-size: 17px;
+    }
+    @media (max-width: 480px){
+        font-size: 16px;
+    }
+}
+h6{
+    margin-block-start: 15px;
+    margin-block-end: 0em;
+    @media (min-width: 700px){
+        font-size: 18px;
+    }
+    @media (max-width: 699px){
+        font-size: 17px;
+    }
+    @media (max-width: 480px){
+        font-size: 16px;
+    }
+}
+
+ul.check{
+    list-style-type:none;
+    @media (min-width: 700px){
+        font-size: 18px;
+    }
+    @media (max-width: 699px){
+        font-size: 17px;
+    }
+    @media (max-width: 480px){
+        font-size: 16px;
+    }
+}
+
+ol{
+    @media (min-width: 700px){
+        font-size: 18px;
+    }
+    @media (max-width: 699px){
+        font-size: 17px;
+    }
+    @media (max-width: 480px){
+        font-size: 16px;
+    }
+}
+
+p{
+    @media (min-width: 700px){
+        font-size: 16px;
+    }
+    @media (max-width: 699px){
+        font-size: 15px;
+    }
+    @media (max-width: 480px){
+        font-size: 14px;
+    }
+}
