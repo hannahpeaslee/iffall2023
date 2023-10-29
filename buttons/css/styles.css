@@ -1,0 +1,366 @@
+a#btn_oldnavy {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #fff;
+    border: 2px solid rgb(0, 55, 100);
+    color: rgb(0, 55, 100);
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .5s;
+}
+a#btn_oldnavy:hover {
+    background-color: rgb(0, 55, 100);
+    color: #fff;
+}
+
+a#btn_army{
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #221f20;
+    border: 4px solid #ffcc01;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 2s;
+    position: relative;
+}
+.fa-explosion{
+    position: absolute;
+    top: -12px;
+    right: 50%;
+    transform: translate(50%, 0%) scale(0);
+    z-index: -1;
+    transition: all .15s;
+}
+
+a#btn_army:hover .fa-explosion{
+    transform-origin: center bottom;
+    transform: translate(50%, 0%) scale(4);
+    top: -10px;
+    right: 50%;
+    color: #ffcc01;
+}
+a#btn_army:hover {
+    font-size: 25px;
+    height: 55px;
+}
+
+a#btn_motortrend{
+    display: inline-block;
+	position: relative;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: #0e0c0c;
+	color: #ee321f;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 30px;
+	font-weight: 800;
+    font-style: italic;
+	text-decoration: none;
+	transition: all .2s;
+}
+a#btn_motortrend:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 50px;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #ee321f;
+    transition: all .5s;
+}
+a#btn_motortrend:hover {
+    color: #0e0c0c;
+}
+a#btn_motortrend:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+a#btn_motortrend span {
+    position: relative;
+    z-index: 10;
+}
+
+a#btn_instagram{
+    display: inline-block;
+    height: 80px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 85px;
+    padding: 10px 40px 0 40px;
+    background-color: #ffffff;
+    border: 0px solid #000000;
+    color: #ffffff;
+    font-size: 70px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 2s;
+    transition: background 0s;
+    position: relative;
+    background: linear-gradient(45deg, #4963da 0%,#4764da 12%,#5d5dd5 15%,#7458d3 18%,#7c55d2 19%,#8d4fcc 22%,#a64bca 25%,#ac4ac3 27%,#b24abb 29%,#be4bb0 32%,#bf4bac 34%,#c94ea8 36%,#cc4ea0 38%,#d45298 41%,#d85893 44%,#dc5d88 47%,#de5f88 48%,#df6284 49%,#ea7474 57%,#ea7676 57%,#eb7b70 59%,#ed7d71 60%,#f3876a 64%,#f38c69 65%,#f18e67 66%,#f49168 66%,#f49567 68%,#f99e65 71%,#f8a561 72%,#fcb065 76%,#fab065 78%,#fcb468 80%,#fab665 81%,#febb6a 85%,#fcc06a 90%,#fec26c 90%,#fcc46d 96%,#fdc76d 96%,#fcc66c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+a#btn_instagram:active {
+    background: red;
+}
+.fa-instagram{
+    position: absolute;
+    top: 0%;
+    right: 50%;
+    transform: translate(50%, 5%) scale(1);
+    z-index: 1;
+    transition: all .15s;
+}
+a#btn_instagram:hover .fa-instagram{
+    transform-origin: center;
+    transform: translate(50%, 5%) scale(0);
+}
+.fa-heart{
+    position: absolute;
+    top: 5px;
+    right: 50%;
+    transform: translate(50%, 0%) scale(0);
+    z-index: .5;
+    transition: all .5s;
+    color: rgb(255, 255, 255);
+}
+a#btn_instagram:hover .fa-heart{
+    transform-origin: center;
+    transform: translate(50%, 0%) scale(.5);
+}
+a#btn_instagram:active .fa-heart{
+    transform-origin: center;
+    transform: translate(50%, 0%) scale(.7);
+}
+
+a#btn_foreflight{
+    display: inline-block;
+    position: relative;
+    height: 45px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 50px 0 30px;
+    text-decoration: none;
+    background-color: rgb(33, 46, 57);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    font-family: 'Montserrat', sans-serif;
+}
+a#btn_foreflight:hover{
+    transform: scale(0.9);
+    border: 5px solid rgb(91, 190, 255);
+    height: 55px;
+    padding: 10px 30px 0 30px;
+}
+a#btn_foreflight .fa-plane-up{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transition: transform 0.5s, color .5s;
+    transform: translate(50%, -50%)
+}
+a#btn_foreflight:hover .fa-plane-up{
+    transform: rotate(-30deg) translate(20px, -140px) scale(3.5);
+    color: black;
+}
+
+a#btn_foreflight:active .fa-plane-up{
+    transform: rotate(-30deg) translate(-70px, -450px) scale(4);
+}
+
+a#btn_apple{
+    display: inline-block;
+    position: relative;
+    height: 45px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 50px 0 30px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    border-radius: 10px;
+    transition: all 0.5s;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+a#btn_apple span{
+    position: relative;
+    z-index: -10;
+    transition: all 0.5s;
+    right: -12px;
+    top: 5px;
+}
+a#btn_apple .fa-apple{
+    position: absolute;
+    scale: 1.8;
+    top: 75%;
+    right: 77px;
+    transform: translate(50%, -50%);
+    transition: all 0.5s;
+}
+a#btn_apple:hover span{
+    top: 32px;
+}
+a#btn_apple:hover .fa-apple{
+    scale: 2;
+    right: 79px;
+}
+
+a#btn_explodingkittens{
+    display: inline-block;
+    position: relative;
+    height: 54px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 30px;
+    padding: 10px 17px 10px 17px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 7px;
+    border: 1px solid rgb(0, 0, 0);
+    transition: all 0.35s;
+    font-family: 'Bebas Neue', sans-serif;
+    transform-origin: center;
+    transform: rotate(-20deg);
+}
+a#btn_explodingkittens:hover{
+    transform: rotate(15deg);
+    background-color: rgb(255, 174, 0);
+}
+
+a#btn_lyft {
+    display: block;
+    width: 120px;
+    height: 95px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #ffffff;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .5s;
+    transform-origin: center;
+}
+a#btn_lyft .fa-lyft{
+    color: #000000;
+}
+a#btn_lyft:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #000000;
+    transition: all .5s;
+}
+
+a#btn_lyft:hover{
+    background-color: #000000;
+    color: #000000;
+    height: 95px;
+    transform: scale(1);
+}
+a#btn_lyft:hover .fa-lyft{
+    scale: 1.2;
+    transition: all .5s;
+}
+
+a#btn_thecolorrun{
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    background: linear-gradient(45deg, #fb83fa 0%,#ff8c3a 50%,#ffff42 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    transition: all 1s;
+    transform: background 1s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+a#btn_thecolorrun:hover{
+    background: linear-gradient(45deg, #ff8c3a 0%,#ffff42 49%,#3aff51 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+a#btn_thecolorrun:active{
+    background: linear-gradient(45deg, #ffff42 0%,#3aff51 50%,#42ccff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+a#btn_bissingers{
+    display: inline-block;
+	position: relative;
+	margin:auto;
+	margin-top: 100px;
+	padding: 8px 16px;
+	background-color: rgb(192, 150, 32);
+	color: #ffffff;
+	font-family: 'Oleo Script', sans-serif;
+	font-size: 30px;
+	font-weight: 800;
+    font-style: italic;
+	text-decoration: none;
+	transition: all .2s;
+}
+a#btn_bissingers:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #ffffff;
+    transition: all .7s;
+}
+a#btn_bissingers:hover {
+    color: rgb(192, 150, 32);
+}
+a#btn_bissingers:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+a#btn_bissingers span {
+    position: relative;
+    z-index: 10;
+}
