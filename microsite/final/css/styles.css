@@ -44,8 +44,8 @@ li.button.home{
     font-style: normal;
     font-size: 23px;
 }
-a.button:hover{
-    font-weight: bolder;
+a.button.page:hover{
+    font-size: 17px;
 }
 
 /************************************** Phone Navigation **************************************/
